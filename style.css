@@ -1,0 +1,102 @@
+
+*{
+    margin:0; 
+    padding:0;
+
+}
+
+nav {
+   margin:auto;
+   text-align: center;
+   width: 100%;
+   font-family: arial;
+} 
+
+nav ul {
+   background:#428df5;
+   padding: 0 20px;
+   list-style: none;
+   position: relative;
+   display: inline-table;
+   width: 100%;
+}
+
+nav ul li{
+   float:left;
+}
+
+nav ul li:hover{
+   background:#4245f5;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center58888;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1;
+    margin: 10px;
+    padding: 0.5em 0.6em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .tambah {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .tambah:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+  
+  .table1 {
+   font-family: sans-serif;
+   color: #444;
+   border-collapse: separate;
+   width: 50%;
+   border: 1px solid #f2f5f7;
+}
+
+.table1 tr th{
+   background: #35A9DB;
+   color: black;
+   font-weight: bold;
+}
+
+.table1, th, td {
+   padding: 8px 20px;
+   text-align: center;
+}
+
+.table1 tr:hover {
+   background-color: grey;
+}
+
+.table1 tr:nth-child(even) {
+   background-color: #84E084;
+}
